@@ -1,0 +1,10 @@
+hidden_size: 1152
+d_relation: 128
+encoder_num_layers: 12
+num_layers: 6
+dropout_rate: 0
+n_head: 36
+key_size_decoder: 128
+n_head_per_mass_decoder: 18
+decoder_dropout_rate: 0
+max_charge: 1

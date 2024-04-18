@@ -1,0 +1,5 @@
+ms1_threshold: 5
+ms1_threshold_unit: ppm
+ms2_threshold: 0.02
+ms2_threshold_unit: Th
+beam_size: 2

@@ -1,0 +1,13 @@
+lr: 5e-5
+lrZ: 1e-2
+total_epoch: 1000
+detect_period: 400
+eval_period: 4000
+weight_decay: 0.01
+epsilon_fulllen_probability: 1
+sample_iteration: 3
+sample_step: 4
+gamma: 0.99
+EPS_START: 0.9
+EPS_END: 0.5
+EPS_DECAY: 1000

@@ -1,0 +1,4 @@
+bin_boarders: [0,64,128,256,512,756]
+#bin_batch_size: [256,128,64,32,8]
+bin_batch_size: [24,16,4,2,1]
+#bin_batch_size: [1,1,1,1,1]

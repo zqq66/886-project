@@ -1,0 +1,31 @@
+defaults:
+  - model: base
+  - train: train
+  - sample: v100_16g_light
+  - data: data
+  - inference: inference
+  - _self_
+
+train_spec_header_path: /home/bingxing2/gpuuser721/olinked/glycan-only/pglyco-mouse-all-tissues-rm-mod-header-train.csv
+test_spec_header_path: /home/bingxing2/gpuuser721/olinked/glycan-only/pglyco-mouse-all-tissues-rm-mod-header-test.csv
+train_dataset_dir: /home/bingxing2/gpuuser721/olinked/glycan-only/
+test_dataset_dir: /home/bingxing2/gpuuser721/olinked/glycan-only/
+#test_spec_header_path: /home/qianqiuzhang/olinked/graphnovo/data/PDI1/glycan-pre/LZ-20190609-Moremen-PDI1-GlyPep-WT-KRc-AV5pm-SemiN2294-header-glycan-pre.csv
+#test_dataset_dir: /home/qianqiuzhang/olinked/graphnovo/data/PDI1/glycan-pre/
+#test_dataset_dir: /home/qianqiuzhang/olinked/graphnovo/data/pglyco-mouse/pep-glycan-graph/
+#test_spec_header_path: /home/qianqiuzhang/olinked/graphnovo/data/CD16/glycan-pre/test.csv #LZ-20190901-Moremen-CD16A-GlyPep-WT2-FYWLc-AV5pm-SemiN2924-header-glycan-pre.csv
+#test_dataset_dir: /home/qianqiuzhang/olinked/graphnovo/data/CD16/glycan-pre/
+#test_spec_header_path: /home/qianqiuzhang/olinked/graphnovo/data/pglyco-mouse/glycan-only/pglyco-mouse-all-tissues-rm-mod-header-test.csv
+#train_dataset_dir: /home/qianqiuzhang/olinked/graphnovo/data/pglyco-mouse/glycan-only/
+#test_spec_header_path: /home/qianqiuzhang/olinked/graphnovo/data/EPO/LZ-20211125-Moremen-EPO-WT2-Glypep-EKRc-AV1pmol-SemiN2924-header.csv
+#test_dataset_dir: /home/qianqiuzhang/olinked/graphnovo/data/EPO/
+
+#test_spec_header_path: /home/qianqiuzhang/olinked/graphnovo/data/qh/UREA-RAX-sceHCD-header.csv
+#test_dataset_dir: /home/qianqiuzhang/olinked/graphnovo/data/qh
+
+serialized_model_path: .
+
+wandb:
+  entity: graphnovo
+  project: Graphnovo
+  name: pglyco3
