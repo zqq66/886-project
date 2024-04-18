@@ -1,5 +1,5 @@
 # 886-project
-
+required package can be found through requirement.txt
 Training
 ```
 python3 main-label-generator.py
